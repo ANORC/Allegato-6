@@ -1,0 +1,79 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+applicationSuite: |-
+  Allegato 6 Linee Guida AgID formazione, gestione e conservazione dei documenti
+  informatici
+categories:
+  - document-management
+description:
+  it:
+    documentation: 'https://github.com/ANORC/Allegato-6/wiki'
+    features:
+      - Web service interoperabilità applicativa protocollo informatico
+    genericName: Web Service Interoperabilità
+    localisedName: Web Service Interoperabilità applicativa protocollo
+    longDescription: |
+      Web Service per l'interoperabilità applicativa di protocollo allegato 6
+      Linee Guida formazione, gestione e conservazione documenti informatici.
+
+
+      Include il codice sorgente per il web service di ricezione e dei client
+      (nelle diverse tecnologie pubblicate) per il dialogo con il web service.
+
+
+      Si ricorda che la root del site del web service contiene i due servizi
+      previsti per la ricezione delle richieste di protocollazione
+      interoperabile e per la gestione delle notifiche di risposta.  
+
+
+      Lo scopo della condivisione del Web Service di colloquio è quello di
+      indirizzare sia la fase di sviluppo che di validazione del canale di
+      interoperabilità applicativa. 
+    shortDescription: |-
+      Web Service per l'interoperabilità di protocollo allegato 6 Linee Guida
+      formazione, gestione e conservazione documenti informatici
+developmentStatus: development
+intendedAudience:
+  countries:
+    - it
+  scope:
+    - government
+it:
+  conforme:
+    gdpr: true
+    lineeGuidaDesign: true
+    misureMinimeSicurezza: true
+    modelloInteroperabilita: true
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: false
+    pagopa: false
+    spid: false
+landingURL: 'https://github.com/ANORC/Allegato-6'
+legal:
+  authorsFile: 'https://raw.githubusercontent.com/ANORC/Allegato-6/master/AUTHORS'
+  license: AGPL-3.0-or-later
+  mainCopyrightOwner: ANORC
+  repoOwner: ANORC
+localisation:
+  availableLanguages:
+    - it
+  localisationReady: false
+maintenance:
+  contacts:
+    - email: segreteria@anorc.it
+      name: ANORC
+      phone: '+390832256065'
+  type: community
+name: Web Service Interoperabilità applicativa protocollo
+platforms:
+  - windows
+  - linux
+releaseDate: '2022-05-30'
+softwareType: standalone/other
+softwareVersion: '0.1'
+url: 'https://github.com/ANORC/Allegato-6'
